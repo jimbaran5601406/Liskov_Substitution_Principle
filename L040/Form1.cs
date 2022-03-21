@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using リスコフの置換原則.Objects;
+using L040.Objects;
 
-namespace リスコフの置換原則
+namespace L040
 {
     public partial class Form1 : Form
     {
@@ -28,6 +28,18 @@ namespace リスコフの置換原則
         {
             int price = Convert.ToInt32(PriceTextBox.Text);
             button1.Text = _member.GetPoint(price).ToString();
+
+            var gold = _member as Gold;
+            if (gold != null)
+            {
+                button1.Text = gold.GetDoublePoint(price).ToString();
+            }
+
+            var platinum = _member as Gold;
+            if (platinum != null)
+            {
+                button1.Text = platinum.GetDoublePoint(price).ToString();
+            }
         }
     }
 }

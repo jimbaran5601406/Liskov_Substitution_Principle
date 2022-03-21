@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace リスコフの置換原則.Objects
+namespace L040.Objects
 {
     public abstract class Member
     {
