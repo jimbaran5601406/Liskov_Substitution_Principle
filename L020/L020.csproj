@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FB0B948F-C42A-44DE-B35B-ADE0F6361000}</ProjectGuid>
+    <ProjectGuid>{5D52F006-8CFA-4029-82D3-151CE16F61EA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>リスコフの置換原則</RootNamespace>
-    <AssemblyName>リスコフの置換原則</AssemblyName>
+    <RootNamespace>L020</RootNamespace>
+    <AssemblyName>L020</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,8 +52,8 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Objects\Member.cs" />
     <Compile Include="Objects\Gold.cs" />
+    <Compile Include="Objects\IMember.cs" />
     <Compile Include="Objects\Silver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

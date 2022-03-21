@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "リスコフの置換原則", "リスコフの置換原則\リスコフの置換原則.csproj", "{FB0B948F-C42A-44DE-B35B-ADE0F6361000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L010_原則に従っている例_抽象クラス", "リスコフの置換原則\L010_原則に従っている例_抽象クラス.csproj", "{FB0B948F-C42A-44DE-B35B-ADE0F6361000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L020", "L020\L020.csproj", "{5D52F006-8CFA-4029-82D3-151CE16F61EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FB0B948F-C42A-44DE-B35B-ADE0F6361000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB0B948F-C42A-44DE-B35B-ADE0F6361000}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB0B948F-C42A-44DE-B35B-ADE0F6361000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D52F006-8CFA-4029-82D3-151CE16F61EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D52F006-8CFA-4029-82D3-151CE16F61EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D52F006-8CFA-4029-82D3-151CE16F61EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D52F006-8CFA-4029-82D3-151CE16F61EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
